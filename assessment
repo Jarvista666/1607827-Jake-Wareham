@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+background: #222;
+font-family: "Work Sans", sans-serif;
+font weight: 100;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  background: #699;
+}
+header::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+nav{
+  float: left;
+}
+nav ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+nav li {
+  float: left;
+  list-style: none;
+  margin-left:  70px;
+padding-top: 25px;
+}
+nav ul >ul>li>a{
+  color: 444;
+  text-decoration: none;
+  text transformation: uppercase;
+  font-size: 14px;
+}
+nav a:hover{
+  color: #000;
+}
+nav a : :before{
+  content:'';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+  }
